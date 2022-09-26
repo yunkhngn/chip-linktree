@@ -21,12 +21,21 @@ body {
 }
 
 .Header {
-  padding: 2%;
+  padding-top: 2%;
   font-weight: 600;
   color: var(--font-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .Header {
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
 }
 
 .Header__inner {
