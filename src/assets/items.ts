@@ -33,7 +33,7 @@ const items: ItemType[] = [
     "title": "Website",
     "subtitle": "My personal website! Currently under construction 🚧",
     "image": website,
-    "link": "https://yunkhngn.vercel.app/" //your personal website or portfolio  link
+    "link": "https://www.khoanguyen.dev/" //your personal website or portfolio  link
 },
 {
     "title": "LinkedIn",
