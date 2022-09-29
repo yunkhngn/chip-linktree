@@ -5,8 +5,6 @@ import github from '../assets/github.png'
 import behance from '../assets/behance.png'
 import facebook from '../assets/facebook.png'
 import tngoc from '../assets/tngoc.png'
-import portfolio from '../assets/portfolio.png'
-import profiles from '../assets/profiles.png'
 
 import { ItemType } from '../ts';
 
@@ -15,7 +13,7 @@ const items: ItemType[] = [
     "title": "Facebook",
     "subtitle": "@yun.khngn | 3.9k followers 🔥",
     "image": facebook,
-    "link": "https://facebook.com/yun.khngn" // linkedin
+    "link": "https://www.facebook.com/profile.php?id=100011136938310" // linkedin
 },
 {
     "title": "Instagram",
@@ -52,19 +50,7 @@ const items: ItemType[] = [
     "subtitle": "Counter to Thanh Ngoc's birthday 🎂",
     "image": tngoc,
     "link": "https://thanhngoc.app" // linkedin
-},
-{
-    "title": "Static Portfolio",
-    "subtitle": "My old static portfolio project 📃",
-    "image": portfolio,
-    "link": "https://yunkhngn.github.io/portfolio/" // linkedin
-},
-{
-    "title": "Profile Card",
-    "subtitle": "Profile card cloned from Linktree ⌨️",
-    "image": profiles,
-    "link": "https://yunkhngn.github.io/profiles/" // linkedin
-},
+}
 ]
 
 export default items
