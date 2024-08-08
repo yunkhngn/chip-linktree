@@ -1,6 +1,6 @@
 body[data-theme='dark'] {
   --font-color: rgb(240, 240, 240);
-  --background-color: rgb(10, 10, 10);
+  --background-color: rgb(19, 19, 19);
   --card-hover-bg: rgba(255, 255, 255, 0.12);
 }
 
