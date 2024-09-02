@@ -3,13 +3,14 @@ import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.jpg'
 import github from '../assets/github.png'
 import facebook from '../assets/facebook.png'
+import behance from '../assets/behance.png'
 
 import { ItemType } from '../ts';
 
 const items: ItemType[] = [
 {
     "title": "Facebook",
-    "subtitle": "@yun.khngn | 3.9k followers 🔥",
+    "subtitle": "@yun.khngn | 2.3k followers 🔥",
     "image": facebook,
     "link": "https://www.facebook.com/yunkhngn" // fb
 },
@@ -26,10 +27,16 @@ const items: ItemType[] = [
     "link": "https://github.com/yunkhngn" //Github Profile link
 },
 {
-    "title": "Website",
-    "subtitle": "My personal website! Currently under construction 🚧",
+    "title": "Khoa Nguyen",
+    "subtitle": "My personal website/portfolio created with Nextjs 🚀",
     "image": website,
-    "link": "https://yunkhngn.vercel.app/" //your personal website or portfolio  link
+    "link": "https://khoanguyen.codes/" //your personal website or portfolio  link
+},
+{
+    "title": "Behance",
+    "subtitle": "My design projects and works 🎨",
+    "image": behance,
+    "link": "https://www.linkedin.com/in/yunkhngn/" // linkedin
 },
 {
     "title": "LinkedIn",
