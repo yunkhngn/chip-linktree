@@ -41,6 +41,7 @@ body {
 .Header__inner {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .Header__inner h2 {
@@ -51,7 +52,6 @@ img {
   width: 46px;
   height: 46px;
   border-radius: 75%;
-  margin-top: 10px;
 }
 
 .row {

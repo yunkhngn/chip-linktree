@@ -1,11 +1,10 @@
 import React from 'react';
 import SunIcon from './Icons/SunIcon';
 import MoonIcon from './Icons/MoonIcon';
-import avatar from '../assets/avatar.jpeg';
+import avatar from '../assets/avt.jpg';
 import '../css/skeleton.css';
 import '../css/normalize.css';
 import '../css/components.css';
-import { ThemeType } from '../ts/types';
 
 function Header(): JSX.Element {
 
@@ -17,16 +16,17 @@ function Header(): JSX.Element {
 
   return (
     <div className="Header container">
-      <div className="ten columns Header__inner">
+      <div className=" columns Header__inner">
         <img src={avatar} alt="avatar" />
         &nbsp;&nbsp;&nbsp;
         <h2>
           <b>Khoa Nguyễn <i>(@yunkhngn)</i>.</b>
         </h2>
       </div>
-      <button className="switch-theme-button">
-        {theme === "light" ? <MoonIcon /> : <SunIcon />}
-      </button>
+      
+      {/* <button className="switch-theme-button" onClick={()=>window.open("https://github.com/yunkhngn")}>
+        <SunIcon />
+      </button> */}
     </div>
   );
 }
