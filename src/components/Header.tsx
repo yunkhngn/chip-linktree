@@ -8,23 +8,12 @@ import '../css/components.css';
 import { ThemeType } from '../ts/types';
 
 function Header(): JSX.Element {
-  // Lấy theme của thiết bị
-  const getDeviceTheme = (): ThemeType => {
-    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    return prefersDarkMode ? 'dark' : 'light';
-  };
 
-  const [theme, setTheme] = React.useState<ThemeType>(getDeviceTheme());
+  const theme = "light"
 
   React.useEffect(() => {
     document.body.setAttribute('data-theme', theme);
   }, [theme]);
-
-  const isDark = theme === 'dark';
-
-  const handleSwitchTheme = () => {
-    setTheme(isDark ? 'light' : 'dark');
-  };
 
   return (
     <div className="Header container">
@@ -35,8 +24,8 @@ function Header(): JSX.Element {
           <b>Khoa Nguyễn <i>(@yunkhngn)</i>.</b>
         </h2>
       </div>
-      <button className="switch-theme-button" onClick={handleSwitchTheme}>
-        {isDark ? <MoonIcon color="white" /> : <SunIcon />}
+      <button className="switch-theme-button">
+        {theme === "light" ? <MoonIcon /> : <SunIcon />}
       </button>
     </div>
   );
