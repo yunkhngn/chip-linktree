@@ -1,7 +1,5 @@
 import React from 'react';
-import SunIcon from './Icons/SunIcon';
-import MoonIcon from './Icons/MoonIcon';
-import avatar from '../assets/avt.jpg';
+import avatar from '../assets/avt.jpeg';
 import '../css/skeleton.css';
 import '../css/normalize.css';
 import '../css/components.css';
@@ -20,7 +18,7 @@ function Header(): JSX.Element {
         <img src={avatar} alt="avatar" />
         &nbsp;&nbsp;&nbsp;
         <h2>
-          <b>Chíp <i>(@yunkhngn)</i>.</b>
+          <b>Chíp <i>(@mihnngcc.ng_)</i>.</b>
         </h2>
       </div>
       
