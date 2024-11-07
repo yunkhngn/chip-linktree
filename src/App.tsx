@@ -21,7 +21,7 @@ function App(): JSX.Element {
                                 subtitle={item.subtitle}
                                 link={item.link}
                                 cover={item.image}>
-                            </Card>
+                            </Card> 
                         )
                     })
                 }

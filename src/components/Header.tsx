@@ -20,7 +20,7 @@ function Header(): JSX.Element {
         <img src={avatar} alt="avatar" />
         &nbsp;&nbsp;&nbsp;
         <h2>
-          <b>Khoa Nguyễn <i>(@yunkhngn)</i>.</b>
+          <b>Chíp <i>(@yunkhngn)</i>.</b>
         </h2>
       </div>
       
